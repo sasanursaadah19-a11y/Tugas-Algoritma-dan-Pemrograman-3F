@@ -51,3 +51,13 @@ flowchart TD
     H --> J
     I --> J
 ```
+
+
+## 🧪 Test Case
+
+| Test Case | Input `(a, b, c)` | Hasil yang Diharapkan |
+|-----------|-------------------|------------------------|
+| 1 | `(5, 5, 5)` | Segitiga sama sisi |
+| 2 | `(5, 5, 3)` | Segitiga sama kaki |
+| 3 | `(4, 5, 6)` | Segitiga sembarang |
+| 4 | `(1, 2, 5)` | Bukan segitiga |
