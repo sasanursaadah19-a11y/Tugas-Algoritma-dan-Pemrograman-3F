@@ -34,17 +34,6 @@ INPUT a
 INPUT b
 INPUT c
 
-IF a + b <= c OR a + c <= b OR b + c <= a THEN
-    OUTPUT "Ketiga sisi tidak membentuk segitiga."
-ELSE
-    IF a = b AND b = c THEN
-        OUTPUT "Ketiga sisi membentuk segitiga sama sisi."
-    ELSE IF a = b OR b = c OR a = c THEN
-        OUTPUT "Ketiga sisi membentuk segitiga sama kaki."
-    ELSE
-        OUTPUT "Ketiga sisi membentuk segitiga sembarang."
-    END IF
-END IF
 
 
 ```mermaid
