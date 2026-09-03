@@ -46,33 +46,23 @@ ELSE
     END IF
 END IF
 
-                         ┌─────────────┐
-                         │    START    │
-                         └──────┬──────┘
-                                ↓
-                    ╱────────────────────╲
-                   ╱  INPUT a, b, dan c   ╲
-                   ╲────────────────────╱
-                                ↓
-                  ◇ Apakah memenuhi syarat ◇
-                  ◇       segitiga?        ◇
-                     ↙                 ↘
-                   Tidak                Ya
-                    ↓                    ↓
-          ╱─────────────────╲    ◇ Apakah a = b = c? ◇
-         ╱ Bukan segitiga    ╲       ↙             ↘
-         ╲───────────────────╱     Ya             Tidak
-                                      ↓               ↓
-                              ╱──────────────╲   ◇ Apakah ada
-                             ╱  Sama sisi     ╲  2 sisi sama? ◇
-                             ╲────────────────╱      ↙       ↘
-                                                   Ya       Tidak
-                                                    ↓          ↓
-                                              ╱──────────╲ ╱───────────╲
-                                             ╱ Sama kaki  ╲╱  Sembarang  ╲
-                                             ╲────────────╱╲─────────────╱
-                                                    ↘       ↙
-                                                       ↓
-                                                 ┌─────────┐
-                                                 │   END   │
-                                                 └─────────┘
+
+```mermaid
+flowchart TD
+    A([START]) --> B[/INPUT a, b, c/]
+    B --> C{Apakah memenuhi syarat segitiga?}
+
+    C -->|Tidak| D[/OUTPUT: Bukan segitiga/]
+    C -->|Ya| E{Apakah a = b = c?}
+
+    E -->|Ya| F[/OUTPUT: Segitiga sama sisi/]
+    E -->|Tidak| G{Apakah ada 2 sisi sama?}
+
+    G -->|Ya| H[/OUTPUT: Segitiga sama kaki/]
+    G -->|Tidak| I[/OUTPUT: Segitiga sembarang/]
+
+    D --> J([END])
+    F --> J
+    H --> J
+    I --> J
+```
