@@ -45,3 +45,34 @@ ELSE
         OUTPUT "Ketiga sisi membentuk segitiga sembarang."
     END IF
 END IF
+
+                         ┌─────────────┐
+                         │    START    │
+                         └──────┬──────┘
+                                ↓
+                    ╱────────────────────╲
+                   ╱  INPUT a, b, dan c   ╲
+                   ╲────────────────────╱
+                                ↓
+                  ◇ Apakah memenuhi syarat ◇
+                  ◇       segitiga?        ◇
+                     ↙                 ↘
+                   Tidak                Ya
+                    ↓                    ↓
+          ╱─────────────────╲    ◇ Apakah a = b = c? ◇
+         ╱ Bukan segitiga    ╲       ↙             ↘
+         ╲───────────────────╱     Ya             Tidak
+                                      ↓               ↓
+                              ╱──────────────╲   ◇ Apakah ada
+                             ╱  Sama sisi     ╲  2 sisi sama? ◇
+                             ╲────────────────╱      ↙       ↘
+                                                   Ya       Tidak
+                                                    ↓          ↓
+                                              ╱──────────╲ ╱───────────╲
+                                             ╱ Sama kaki  ╲╱  Sembarang  ╲
+                                             ╲────────────╱╲─────────────╱
+                                                    ↘       ↙
+                                                       ↓
+                                                 ┌─────────┐
+                                                 │   END   │
+                                                 └─────────┘
