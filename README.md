@@ -76,8 +76,8 @@ Masukkan sisi c:
 
 **Output:**
 ```text
-[![Uploading Cuplikan layar 2026-09-03 212531.png…]()
-]
+<img width="352" height="74" alt="Cuplikan layar 2026-09-03 212531" src="https://github.com/user-attachments/assets/4f14c9dc-8992-4153-a260-bb4aba6d83bb" />
+
 ```
 
 ---
