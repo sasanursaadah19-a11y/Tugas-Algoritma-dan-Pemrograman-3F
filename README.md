@@ -30,10 +30,6 @@ Jika ketiga sisi berbeda, maka merupakan segitiga sembarang.
 Output:
 Jenis segitiga berdasarkan panjang ketiga sisinya.
 
-INPUT a
-INPUT b
-INPUT c
-
 
 
 ```mermaid
