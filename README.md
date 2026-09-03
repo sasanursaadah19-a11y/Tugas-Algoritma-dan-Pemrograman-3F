@@ -61,3 +61,69 @@ flowchart TD
 | 2 | `(5, 5, 3)` | Segitiga sama kaki |
 | 3 | `(4, 5, 6)` | Segitiga sembarang |
 | 4 | `(1, 2, 5)` | Bukan segitiga |
+
+
+## 📸 Hasil Pengujian
+
+### Test Case 1
+
+**Input:**
+```text
+Masukkan sisi a:
+Masukkan sisi b:
+Masukkan sisi c:
+```
+
+**Output:**
+```text
+[![Uploading Cuplikan layar 2026-09-03 212531.png…]()
+]
+```
+
+---
+
+### Test Case 2
+
+**Input:**
+```text
+Masukkan sisi a:
+Masukkan sisi b:
+Masukkan sisi c:
+```
+
+**Output:**
+```text
+[Masukkan screenshot hasil pengujian Test Case 2 di sini]
+```
+
+---
+
+### Test Case 3
+
+**Input:**
+```text
+Masukkan sisi a:
+Masukkan sisi b:
+Masukkan sisi c:
+```
+
+**Output:**
+```text
+[Masukkan screenshot hasil pengujian Test Case 3 di sin]
+```
+
+---
+
+### Test Case 4
+
+**Input:**
+```text
+Masukkan sisi a:
+Masukkan sisi b:
+Masukkan sisi c:
+```
+
+**Output:**
+```text
+[Masukkan screenshot hasil pengujian Test Case 4 di sini]
+```
